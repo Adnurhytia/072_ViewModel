@@ -227,7 +227,7 @@ fun TampilForm(cobaViewModel: CobaViewModel = viewModel()) {
         )
         SelectSt(
             options = status.map {id -> context.resources.getString(id)},
-            onSelectionChanged = {cobaViewModel.setStatus(it)}
+            onSelectionChanged = {cobaViewModel.setStatusMenikah(it)}
         )
 
         OutlinedTextField(
@@ -246,7 +246,7 @@ fun TampilForm(cobaViewModel: CobaViewModel = viewModel()) {
         Button(
             modifier = Modifier.fillMaxWidth(),
             onClick = {
-                cobaViewModel.insertData(textNama, textTlp,textAlamat,textStatus,textMail, dataForm.sex)
+                cobaViewModel.insertData(textNama, textTlp,textAlamat,textStatus,textMail, dataForm.sex, )
             }
         ){
             Text(text = stringResource(R.string.submit),

@@ -253,7 +253,7 @@ fun TampilForm(cobaViewModel: CobaViewModel = viewModel()) {
                 fontSize = 16.sp
             )
         }
-        Spacer(modifier = Modifier.height(100.dp))
+
         TextHasil(
             namanya = cobaViewModel.namaUser ,
             telponnya = cobaViewModel.noTlp,
@@ -269,6 +269,10 @@ fun TampilForm(cobaViewModel: CobaViewModel = viewModel()) {
 fun TampilLayout(
     modifier: Modifier = Modifier
 ){
+    Row (
+
+    ){
+    }
 
     Card (
         modifier = Modifier,

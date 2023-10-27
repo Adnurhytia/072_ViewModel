@@ -3,4 +3,8 @@
     <string name="laki">laki</string>
     <string name="perempuan">perempuan</string>
     <string name="submit">Submit</string>
+    <string name="blmMenikah">belum menikah</string>
+    <string name="menikah">Menikah</string>
+    <string name="register">Register</string>
+    <string name="account">Create Your Account</string>
 </resources>
